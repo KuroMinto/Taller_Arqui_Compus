@@ -35,8 +35,8 @@ JMP 020
 #020
 # Menu de Inicio del programa
 MSG *****************MENU PRINCIPAL*****************
-MSG [1] Ejercicio N°1
-MSG [2] Ejercicio N°2
+MSG [1] Ejercicio NÂ°1
+MSG [2] Ejercicio NÂ°2
 MSG [3] Salir
 MSG *****************OPCION A ELEGIR****************
 LDT Ingrese la opcion que desea
@@ -128,7 +128,7 @@ LOOP 052
 INC 00A
 INC BX
 LOOP 052
-# 068 - Si ya no hay más votos por contar
+# 068 - Si ya no hay mÃ¡s votos por contar
 # Se verirican los votos numeros nulos para saber si la votacion es valida o no
 LDA 00B
 CMP 00D
